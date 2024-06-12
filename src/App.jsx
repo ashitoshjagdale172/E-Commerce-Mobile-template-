@@ -1,18 +1,12 @@
-import Navbar from "./Components/Navbar"
-import Header from"./Components/Header"
-import Sale from "./Components/Sale"
-import HomeAbout from "./Components/HomeAbout"
-import ChooseUS from "./Components/ChooseUS"
-import Footer from "./Components/Footer"
+// import HomeLayout from "./Components/Home/HomeLayout"
+// import ShopAllLayout from "./Components/ShopAll/ShopAllLayout"
+import SingleILayout from "./Components/SingleItem/SingleILayout"
 function App() {
    return (
     <>
-     <Navbar/>
-     <Header/>
-     <Sale/>
-     <HomeAbout/>
-     <ChooseUS/>
-     <Footer/>
+     {/* <HomeLayout/> */}
+     {/* <ShopAllLayout/> */}
+    <SingleILayout/>
     </>
   )
 }

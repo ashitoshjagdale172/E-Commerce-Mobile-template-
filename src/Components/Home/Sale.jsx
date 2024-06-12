@@ -1,14 +1,15 @@
 import React from "react";
 import SaleContainer from "./SaleContainer";
-import pro from "../assets/Images/mobile-1.png";
-import s23 from "../assets/Images/Samsung S23.png"
-import iphone14 from "../assets/Images/I-phone14.png"
-import Pixel from "../assets/Images/Pixel.png"
+import pro from "../../assets/Images/mobile-1.png";
+
+import s23 from "../../assets/Images/SamsungS23.png"
+import iphone14 from "../../assets/Images/I-phone14.png"
+import Pixel from "../../assets/Images/Pixel.png"
 
 const Sale = () => {
   return (
     <div>
-      <div className="flex  justify-evenly mt-[10%]">
+      <div className="flex flex-wrap justify-evenly gap-19  mt-[20%] md:mt-[10%]">
         <SaleContainer
           images={pro}
           Text="iPhone 13 Pro - Transparent"
