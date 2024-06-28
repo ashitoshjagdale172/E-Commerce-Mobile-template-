@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#EDF2F4] flex flex-col md:flex-row items-center W-[100%] justify-evenly p-20 gap-24 mt-[40px] ">
+      <div className="bg-[#EDF2F4] flex flex-col md:flex-row items-center w-[100%] justify-evenly p-20 gap-24 mt-[5px] ">
         <div className="flex flex-col ">
           <div className="flex justify-center">
             <img src={Logo} alt="" className="w-[100px] h-[100px]" />

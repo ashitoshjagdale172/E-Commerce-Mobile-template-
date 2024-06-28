@@ -6,7 +6,7 @@ const HomeAbout = () => {
   return (
     <div>
       <div>
-        <div className=" mt-[10%] mb-[20px]">
+        <div className=" mt-[5%] mb-[20px]">
           <RedBar underText="about us" />
         </div>
         <div className=" text-[20px] md:text-[28px] font-[800] text-[#D62828] flex flex-col text-center items-center justify-center ">
